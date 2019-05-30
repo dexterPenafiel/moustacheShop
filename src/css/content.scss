@@ -1,0 +1,81 @@
+// Google Fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap);
+// Font Variables
+$open-sans: 'Open Sans', sans-serif;
+
+body {
+    font-family: $open-sans;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+.section-img {
+    text-align: center;
+    margin-bottom: 15px;
+
+    img {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+.prod-name {
+    font-weight: bold;
+    font-size: 20px;
+}
+.prod-amount {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 35px;
+    border-top: 1px solid rgb(248, 248, 248);
+    border-bottom: 1px solid rgb(248, 248, 248);
+}
+.prod-info {
+    font-size: 13px;
+    line-height: 20px;
+    color: rgb(136, 136, 136);
+    margin-bottom: 30px;
+}
+.prod-sizes {
+    color: rgb(136, 136, 136);
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+    .req-star {
+        font-weight: bold;
+
+        &:after {
+            content: "*";
+            color: rgb(201, 0, 0);
+        }
+    }
+    .selected-size {
+        color: rgb(34, 34, 34);
+    }
+    ul {
+        padding-inline-start: 0px;
+
+        li {
+            display: inline-block;
+            border: 1px solid rgb(204, 204, 204);
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            cursor: pointer;
+            margin: 0 2px;
+
+            &:hover, &:active {
+                border: 2px solid rgb(34, 34, 34);
+                width: 38px;
+                height: 38px;
+                line-height: 38px;
+                color: rgb(34, 34, 34);
+            }
+        }
+    }
+}
+
+.btn-add-cart {
+    text-transform: uppercase;
+}

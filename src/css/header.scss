@@ -1,0 +1,119 @@
+// Google Fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap);
+// Font Variables
+$open-sans: 'Open Sans', sans-serif;
+
+body {
+    font-family: $open-sans;
+    font-weight: normal;
+}
+
+.my-cart {
+    background: rgb(246, 246, 247);
+    margin: 15px 0px 40px;
+
+    .my-cart-content {
+        width: 100%;
+        margin: 0 auto;
+        margin-right: 10%;
+        position: relative;
+        text-align: right;
+
+        .btn-my-cart {
+            position: relative;
+            display: inline-block;
+            z-index: 2;
+            text-align: center;
+
+            &:hover {
+                .my-cart-text {
+                    background: rgb(255, 255, 255);
+                    border: 1px solid rgb(204, 204, 204);
+                    line-height: 24px;
+                    border-bottom: none;
+                    color: rgb(34, 34, 34);
+                }
+                ul.my-items {
+                    display: block;
+                }
+            }
+
+            .my-cart-text {
+                color: rgb(136, 136, 136);
+                font-size: 12px;
+                line-height: 25px;
+                width: 100%;
+                display: block;
+                position: relative;
+                z-index: 5;
+                padding: 0px 10px;
+            }
+            .my-cart-icon {
+                display: none;
+            }
+            ul.my-items {
+                display: none;
+                width: 250px;
+                border: 1px solid rgb(204, 204, 204);
+                background: rgb(255, 255, 255);
+                position: absolute;
+                top: 24px;
+                right: 0;
+                z-index: 1;
+                padding: 20px;
+                padding-bottom: 0px;
+                margin: 0px;
+
+                li {
+                    list-style-type: none;
+                    width: 100%;
+                    margin-bottom: 20px;
+
+                    div {
+                        display: inline-block;
+                    }
+
+                    .my-item-img {
+                        width: 40%;
+                        text-align: center;
+
+                        img {
+                            width: 80px;
+                        }
+
+                        
+                    }
+                    .my-item-details {
+                        width: 60%;
+                        vertical-align: top;
+
+                        p {
+                            color: rgb(34, 34, 34);
+                            text-align: left;
+                            margin-top: 5px;
+                            line-height: 0px;
+                            margin-bottom: 30px;
+                            font-size: 15px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+
+
+$width-name: max-device-width;
+$target-width: 762px;
+
+@media screen and ($width-name : $target-width) {
+    .my-cart-title {
+        display: none;
+    }
+    .my-cart .my-cart-content .btn-my-cart .my-cart-icon {
+        display: inline-block;
+    }
+}
+
