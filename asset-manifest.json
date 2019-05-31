@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/mous-opt/static/css/main.57c00206.chunk.css",
+    "main.js": "/mous-opt/static/js/main.2dd75de4.chunk.js",
+    "main.js.map": "/mous-opt/static/js/main.2dd75de4.chunk.js.map",
+    "runtime~main.js": "/mous-opt/static/js/runtime~main.64a8bc37.js",
+    "runtime~main.js.map": "/mous-opt/static/js/runtime~main.64a8bc37.js.map",
+    "static/css/2.a2da144b.chunk.css": "/mous-opt/static/css/2.a2da144b.chunk.css",
+    "static/js/2.16068a75.chunk.js": "/mous-opt/static/js/2.16068a75.chunk.js",
+    "static/js/2.16068a75.chunk.js.map": "/mous-opt/static/js/2.16068a75.chunk.js.map",
+    "index.html": "/mous-opt/index.html",
+    "precache-manifest.e2336c1444f2fd63695521bbb3cd2a3b.js": "/mous-opt/precache-manifest.e2336c1444f2fd63695521bbb3cd2a3b.js",
+    "service-worker.js": "/mous-opt/service-worker.js",
+    "static/css/2.a2da144b.chunk.css.map": "/mous-opt/static/css/2.a2da144b.chunk.css.map",
+    "static/css/main.57c00206.chunk.css.map": "/mous-opt/static/css/main.57c00206.chunk.css.map",
+    "static/media/font-awesome.css": "/mous-opt/static/media/fontawesome-webfont.fee66e71.woff"
+  }
+}
